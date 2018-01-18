@@ -3,8 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.r2Phonegap.helloworld"
-        versionCode = "1"
+        id        = "com.r2Phonegap.*"
         version     = "1.0.0">
 
     <name>R2 Phonegap</name>
@@ -13,16 +12,10 @@
         Testing Phonegap Mobile App Build.
     </description>
 
-    <author href="http://phonegap.com" email="support@rights2.com">
+    <author href="http://www.rights2.info/" email="info@rights2.info">
         R2 Phonegap Test
     </author>
-
-    <feature name="http://api.phonegap.com/1.0/camera"/>
-    <feature name="http://api.phonegap.com/1.0/contacts"/>
-    <feature name="http://api.phonegap.com/1.0/file"/>
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
-    <feature name="http://api.phonegap.com/1.0/media"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
-    <feature name="http://api.phonegap.com/1.0/notification"/>
+    
+    <access origin="*"/>
 
 </widget>
