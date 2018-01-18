@@ -17,7 +17,5 @@
     </author>
     
     <access origin="*"/>
-    
-    <preference name="deployment-target" value="7.1.2" />
 
 </widget>
